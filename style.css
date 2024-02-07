@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: f1;
+    src: url(Ananda\ Personal\ Use.ttf);
+  }
+
+*{
+padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-image: url(galaxy-3468_512.gif);
+background-size: cover;
+
+}
+
+input{
+margin-top: 10%;
+margin-left: 44%;
+padding: 30px;
+background-color: rgb(0, 0, 128);
+border: blue;
+border-radius: 10px;
+color: aliceblue;
+font-family: f1;
+font-size: xx-large;
+box-shadow: 5px 5px 1px rgb(48, 48, 255);
+position: absolute;
+}
+
+input:hover{
+transition: 2s;
+cursor: pointer;
+padding: 40px;
+position: absolute;
+
+}
+
+h1{
+font-family: f1;
+color: aliceblue;
+text-align: center;
+margin-top: 100px;
+}
+
+footer{
+
+background-color: aliceblue;
+position: absolute;
+margin-top: 470px;
+}
+
+img{
+max-height: 200px;
+max-width: auto ;
+opacity: 0;
+
+}
+
+img:hover{
+opacity: 1;
+
+
+}
